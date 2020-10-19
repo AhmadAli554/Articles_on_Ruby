@@ -1,0 +1,22 @@
+<h2><br>Showing Article</h2>
+<p class="h5">
+  <strong>Title:</strong>
+  <%= @article.title %>
+</p>
+<br>
+<p class="h5">
+  <strong>Description:</strong>
+  <%= @article.description %>
+</p>
+<br>
+<p class="h5">
+  <strong>Created by: </strong>
+  <small>
+    <%= @article.user.username %>
+    <p class="h5">Created at: <%= time_ago_in_words(@article.created_at) %> ago</p>
+    <p class="h5">Updated at: <%= time_ago_in_words(@article.updated_at) %> ago</p>
+  </small>
+</p>
+
+<%= link_to 'Edit', edit_article_path(@article) %> |
+<%= link_to 'Back', articles_path %>

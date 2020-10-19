@@ -1,0 +1,48 @@
+@import "~bootstrap/scss/bootstrap";
+nav{
+  font-size: inherit;
+  background-color:#2d246d;
+  border-color:#2d246d;
+  color:#fff
+}
+
+
+#logo{
+  font-size: 1.7em;
+  float:left;
+  color:#fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+#logo:hover{
+  color:#fff;
+  text-decoration:none;
+}
+
+
+.form-control{
+  width:100%;
+}
+.form{
+  text-align: center;
+  width:100%;
+}
+.col-md-12{
+  width:100%;
+}
+
+.nav-item{
+  color: white;
+}
+article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}

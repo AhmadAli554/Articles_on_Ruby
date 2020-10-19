@@ -1,0 +1,18 @@
+.center{
+    text-align: center;
+    background-image: url('ruby2.jpg');
+    background-size:cover ;
+    height: 600px;
+}
+.jumbotron h1{
+    color:#fff;
+    text-align: center;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+#sign-in{
+     color:#fff;
+     font-size:1.7em;
+     /*background-color: black;*/
+ }
